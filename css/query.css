@@ -1,0 +1,16 @@
+.container{
+  width: 100%;
+  padding-top: 120px;
+}
+.emi{
+  width: 70%;
+  margin: auto;
+}
+.emi table{
+  width: 80%;
+  margin: 20px auto;
+}
+table th, table td{
+  border: 1px solid #000;
+  padding: 10px;
+}

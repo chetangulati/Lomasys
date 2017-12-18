@@ -1,0 +1,183 @@
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: #80d8ff;
+ }
+
+#pg-wrapper {
+  height: 600px; }
+
+#ct-wrapper {
+  width: 60%;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 50px auto; }
+
+#err {
+  z-index: 100;
+  width: 20%;
+  left: 40%;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  margin: auto;
+  background: #2ecc71;
+  color: #fff; }
+
+.head h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  width: 50%;
+  float: left;
+  cursor: pointer;
+  font-weight: lighter;
+  background: #0091EA;
+  color: #fff;
+  text-align: center; }
+.head #lhead.activelogin {
+  color: #0091EA;
+  background: #fff;
+}
+.head #shead.activesignup {
+  color: #0091EA;
+  background: #fff;
+}
+.g-line, .mob {
+  width: 100%;
+  margin: auto;
+  float: left;
+  height: 2px;
+  background: linear-gradient(to right, #7986CB 0%, #2ecc71 100%); }
+
+.mob {
+  display: none; }
+
+.v-line {
+  height: 380px;
+  position: absolute;
+  width: 2px;
+  margin: 30px 30%;
+  float: left;
+  background: #888; }
+
+#login.al {
+  display: block; }
+
+#signup.as {
+  display: block; }
+
+#login, #signup {
+  clear: both;
+  display: none; }
+  #login .user{
+    margin-top: 40px;
+  }
+  #login .user, #signup .user {
+    width: 100%;
+    float: left; }
+    #login .user .info-form, #signup .user .info-form {
+      width: 80%;
+      margin: 50px auto; }
+      #login .user .info-form input[type=text], #login .user .info-form input[type="password"], #login .user .info-form input[type=tel], #login .user .info-form input[type="email"], #signup .user .info-form input[type=text], #signup .user .info-form input[type="password"], #signup .user .info-form input[type=tel], #signup .user .info-form input[type="email"]
+      {
+        padding: 5px;
+        width: 100%;
+        float: left;
+        margin: auto;
+        border: 1px solid rgba(136, 136, 136, 0.5);
+       }
+      #login .user .info-form input[type=submit], #signup .user .info-form input[type=submit] {
+        margin: 40px 0;
+        padding: 5px;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+        width: 100%;
+        font-size: 25px;
+        font-family: 'Sansita', sans-serif;
+        background-color: #0091EA;
+        transition: 200ms;
+        -webkit-transition: 200ms;
+        -moz-transition: 200ms; }
+      #login .user .info-form input[type=submit]:hover, #signup .user .info-form input[type=submit]:hover {
+        background-color: #303F9F;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); }
+      #login .user .info-form p, #signup .user .info-form p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #555;
+        margin-top: 50px;
+        margin-bottom: 10px; }
+  #login .social-login, #signup .social-login {
+    width: 50%;
+    float: left; }
+    #login .social-login h3, #signup .social-login h3 {
+      width: 100%;
+      font-size: 30px;
+      font-weight: lighter;
+      color: #444;
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  #ct-wrapper {
+    width: 100%;
+    margin: 0px;
+    height: 800px; }
+
+  #err {
+    box-sizing: border-box;
+    width: 80%;
+    left: 10%; }
+
+  #lhead, #shead {
+    font-size: 30px; }
+
+  #signup .user, #login .user {
+    width: 100%; }
+    #signup .user .info-form, #login .user .info-form {
+      width: 100%; }
+      #signup .user .info-form input[type=text], #signup .user .info-form input[type=tel], #signup .user .info-form input[type=password], #signup .user .info-form input[type=email], #login .user .info-form input[type=text], #login .user .info-form input[type=tel], #login .user .info-form input[type=password], #login .user .info-form input[type=email] {
+        margin: 0 15%;
+        width: 70%; }
+      #signup .user .info-form p, #login .user .info-form p {
+        margin: 40px 15% 5px 15%;
+        width: 70%; }
+      #signup .user .info-form input[type=submit], #login .user .info-form input[type=submit] {
+        width: 70%;
+        margin: 15px 15%; }
+      #signup .user .info-form input[type=checkbox], #login .user .info-form input[type=checkbox] {
+        margin-left: 15%; }
+  #signup .social-login, #login .social-login {
+    width: 100%;
+    height: 300px; }
+    #signup .social-login h3, #login .social-login h3 {
+      font-size: 25px; }
+
+  .v-line {
+    display: none; }
+
+  .mob {
+    display: block; } }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #ct-wrapper {
+    width: 100%;
+    margin: 0; }
+
+  #err {
+    width: 30%;
+    left: 35%; }
+
+  .v-line {
+    margin: 35px 50%; } }
+
+/*# sourceMappingURL=login.css.map */

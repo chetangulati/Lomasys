@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACb,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,KAAK",
+"sources": ["../scss/postad.scss"],
+"names": [],
+"file": "postad.scss"
+}
